@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61A720322A67CDE5006B12D3 /* AirportConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A720312A67CDE5006B12D3 /* AirportConnectApp.swift */; };
+		61A720362A67CDE8006B12D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A720352A67CDE8006B12D3 /* Assets.xcassets */; };
+		61A7203A2A67CDE8006B12D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A720392A67CDE8006B12D3 /* Preview Assets.xcassets */; };
+		61A720442A67CDE8006B12D3 /* AirportConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A720432A67CDE8006B12D3 /* AirportConnectTests.swift */; };
+		61A7204E2A67CDE8006B12D3 /* AirportConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7204D2A67CDE8006B12D3 /* AirportConnectUITests.swift */; };
+		61A720502A67CDE8006B12D3 /* AirportConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7204F2A67CDE8006B12D3 /* AirportConnectUITestsLaunchTests.swift */; };
+		61A7205E2A67CE5A006B12D3 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7205D2A67CE5A006B12D3 /* WelcomeView.swift */; };
+		61A720602A67CFD7006B12D3 /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7205F2A67CFD7006B12D3 /* ColorConstants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61A720402A67CDE8006B12D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61A720262A67CDE5006B12D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61A7202D2A67CDE5006B12D3;
+			remoteInfo = AirportConnect;
+		};
+		61A7204A2A67CDE8006B12D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61A720262A67CDE5006B12D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61A7202D2A67CDE5006B12D3;
+			remoteInfo = AirportConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61A7202E2A67CDE5006B12D3 /* AirportConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A720312A67CDE5006B12D3 /* AirportConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportConnectApp.swift; sourceTree = "<group>"; };
+		61A720352A67CDE8006B12D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61A720372A67CDE8006B12D3 /* AirportConnect.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirportConnect.entitlements; sourceTree = "<group>"; };
+		61A720392A67CDE8006B12D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61A7203F2A67CDE8006B12D3 /* AirportConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A720432A67CDE8006B12D3 /* AirportConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportConnectTests.swift; sourceTree = "<group>"; };
+		61A720492A67CDE8006B12D3 /* AirportConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A7204D2A67CDE8006B12D3 /* AirportConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportConnectUITests.swift; sourceTree = "<group>"; };
+		61A7204F2A67CDE8006B12D3 /* AirportConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61A7205D2A67CE5A006B12D3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		61A7205F2A67CFD7006B12D3 /* ColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61A7202B2A67CDE5006B12D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A7203C2A67CDE8006B12D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A720462A67CDE8006B12D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61A720252A67CDE5006B12D3 = {
+			isa = PBXGroup;
+			children = (
+				61A720302A67CDE5006B12D3 /* AirportConnect */,
+				61A720422A67CDE8006B12D3 /* AirportConnectTests */,
+				61A7204C2A67CDE8006B12D3 /* AirportConnectUITests */,
+				61A7202F2A67CDE5006B12D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61A7202F2A67CDE5006B12D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61A7202E2A67CDE5006B12D3 /* AirportConnect.app */,
+				61A7203F2A67CDE8006B12D3 /* AirportConnectTests.xctest */,
+				61A720492A67CDE8006B12D3 /* AirportConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61A720302A67CDE5006B12D3 /* AirportConnect */ = {
+			isa = PBXGroup;
+			children = (
+				61A7205C2A67CE31006B12D3 /* Welcome */,
+				61A720312A67CDE5006B12D3 /* AirportConnectApp.swift */,
+				61A7205F2A67CFD7006B12D3 /* ColorConstants.swift */,
+				61A720352A67CDE8006B12D3 /* Assets.xcassets */,
+				61A720372A67CDE8006B12D3 /* AirportConnect.entitlements */,
+				61A720382A67CDE8006B12D3 /* Preview Content */,
+			);
+			path = AirportConnect;
+			sourceTree = "<group>";
+		};
+		61A720382A67CDE8006B12D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				61A720392A67CDE8006B12D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		61A720422A67CDE8006B12D3 /* AirportConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				61A720432A67CDE8006B12D3 /* AirportConnectTests.swift */,
+			);
+			path = AirportConnectTests;
+			sourceTree = "<group>";
+		};
+		61A7204C2A67CDE8006B12D3 /* AirportConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61A7204D2A67CDE8006B12D3 /* AirportConnectUITests.swift */,
+				61A7204F2A67CDE8006B12D3 /* AirportConnectUITestsLaunchTests.swift */,
+			);
+			path = AirportConnectUITests;
+			sourceTree = "<group>";
+		};
+		61A7205C2A67CE31006B12D3 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				61A7205D2A67CE5A006B12D3 /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61A7202D2A67CDE5006B12D3 /* AirportConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A720532A67CDE8006B12D3 /* Build configuration list for PBXNativeTarget "AirportConnect" */;
+			buildPhases = (
+				61A7202A2A67CDE5006B12D3 /* Sources */,
+				61A7202B2A67CDE5006B12D3 /* Frameworks */,
+				61A7202C2A67CDE5006B12D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirportConnect;
+			productName = AirportConnect;
+			productReference = 61A7202E2A67CDE5006B12D3 /* AirportConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61A7203E2A67CDE8006B12D3 /* AirportConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A720562A67CDE8006B12D3 /* Build configuration list for PBXNativeTarget "AirportConnectTests" */;
+			buildPhases = (
+				61A7203B2A67CDE8006B12D3 /* Sources */,
+				61A7203C2A67CDE8006B12D3 /* Frameworks */,
+				61A7203D2A67CDE8006B12D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61A720412A67CDE8006B12D3 /* PBXTargetDependency */,
+			);
+			name = AirportConnectTests;
+			productName = AirportConnectTests;
+			productReference = 61A7203F2A67CDE8006B12D3 /* AirportConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61A720482A67CDE8006B12D3 /* AirportConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61A720592A67CDE8006B12D3 /* Build configuration list for PBXNativeTarget "AirportConnectUITests" */;
+			buildPhases = (
+				61A720452A67CDE8006B12D3 /* Sources */,
+				61A720462A67CDE8006B12D3 /* Frameworks */,
+				61A720472A67CDE8006B12D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61A7204B2A67CDE8006B12D3 /* PBXTargetDependency */,
+			);
+			name = AirportConnectUITests;
+			productName = AirportConnectUITests;
+			productReference = 61A720492A67CDE8006B12D3 /* AirportConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61A720262A67CDE5006B12D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					61A7202D2A67CDE5006B12D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					61A7203E2A67CDE8006B12D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 61A7202D2A67CDE5006B12D3;
+					};
+					61A720482A67CDE8006B12D3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 61A7202D2A67CDE5006B12D3;
+					};
+				};
+			};
+			buildConfigurationList = 61A720292A67CDE5006B12D3 /* Build configuration list for PBXProject "AirportConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61A720252A67CDE5006B12D3;
+			productRefGroup = 61A7202F2A67CDE5006B12D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61A7202D2A67CDE5006B12D3 /* AirportConnect */,
+				61A7203E2A67CDE8006B12D3 /* AirportConnectTests */,
+				61A720482A67CDE8006B12D3 /* AirportConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61A7202C2A67CDE5006B12D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A7203A2A67CDE8006B12D3 /* Preview Assets.xcassets in Resources */,
+				61A720362A67CDE8006B12D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A7203D2A67CDE8006B12D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A720472A67CDE8006B12D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61A7202A2A67CDE5006B12D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A720602A67CFD7006B12D3 /* ColorConstants.swift in Sources */,
+				61A720322A67CDE5006B12D3 /* AirportConnectApp.swift in Sources */,
+				61A7205E2A67CE5A006B12D3 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A7203B2A67CDE8006B12D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A720442A67CDE8006B12D3 /* AirportConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A720452A67CDE8006B12D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A7204E2A67CDE8006B12D3 /* AirportConnectUITests.swift in Sources */,
+				61A720502A67CDE8006B12D3 /* AirportConnectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61A720412A67CDE8006B12D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61A7202D2A67CDE5006B12D3 /* AirportConnect */;
+			targetProxy = 61A720402A67CDE8006B12D3 /* PBXContainerItemProxy */;
+		};
+		61A7204B2A67CDE8006B12D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61A7202D2A67CDE5006B12D3 /* AirportConnect */;
+			targetProxy = 61A7204A2A67CDE8006B12D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		61A720512A67CDE8006B12D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61A720522A67CDE8006B12D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		61A720542A67CDE8006B12D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirportConnect/AirportConnect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirportConnect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AirportConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61A720552A67CDE8006B12D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AirportConnect/AirportConnect.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirportConnect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AirportConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61A720572A67CDE8006B12D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AirportConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirportConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirportConnect";
+			};
+			name = Debug;
+		};
+		61A720582A67CDE8006B12D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AirportConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirportConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AirportConnect";
+			};
+			name = Release;
+		};
+		61A7205A2A67CDE8006B12D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AirportConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirportConnect;
+			};
+			name = Debug;
+		};
+		61A7205B2A67CDE8006B12D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AirportConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirportConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61A720292A67CDE5006B12D3 /* Build configuration list for PBXProject "AirportConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A720512A67CDE8006B12D3 /* Debug */,
+				61A720522A67CDE8006B12D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A720532A67CDE8006B12D3 /* Build configuration list for PBXNativeTarget "AirportConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A720542A67CDE8006B12D3 /* Debug */,
+				61A720552A67CDE8006B12D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A720562A67CDE8006B12D3 /* Build configuration list for PBXNativeTarget "AirportConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A720572A67CDE8006B12D3 /* Debug */,
+				61A720582A67CDE8006B12D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61A720592A67CDE8006B12D3 /* Build configuration list for PBXNativeTarget "AirportConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61A7205A2A67CDE8006B12D3 /* Debug */,
+				61A7205B2A67CDE8006B12D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61A720262A67CDE5006B12D3 /* Project object */;
+}
